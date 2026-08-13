@@ -2,7 +2,7 @@
 
 > A Model Context Protocol (MCP) server that ingests any OpenAPI 3.0/3.1 specification (YAML or JSON) at runtime and dynamically exposes every endpoint as a fully validated MCP tool for LLMs.
 
-Instead of hand-writing tool wrappers for each REST endpoint, point the bridge at an OpenAPI spec once — a local file or a remote URL — and it translates every operation into a typed, validated MCP tool automatically.
+Instead of hand-writing tool wrappers for each REST endpoint, give the bridge a local OpenAPI file path or a remote URL. It automatically turns each operation into a typed, validated MCP tool.
 
 ## Table of Contents
 
